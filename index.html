@@ -612,7 +612,7 @@
                         </div>
                     </div>
                 </div>
-                <form id="fcf-form-id" action="contact-form-process.php" class="contact__form grid" method="post">
+                <form id="fcf-form-id" action="contact-form-process.php" class="contact__form grid" method="POST">
                     <div class="contact__input grid">
                         <div class="contact__content">
                             <label for="Name" class="content__label">Name</label>
@@ -630,8 +630,8 @@
                         <textarea id="Message" name="Message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
-                    <div class="fcf-form-group">
-                        <button type="submit" id="fcf-button" class="button button--flex">
+                    <div>
+                        <button type="submit" id="fcf-button" class="button button--flex" name="Submit">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
                         </button>
